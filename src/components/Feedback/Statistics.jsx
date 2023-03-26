@@ -17,7 +17,7 @@ const Statistics = ({ good, natural, bad, total, positivePercentage }) => (
         
     </section>);
 
-Statistics PropTipes = {
+Statistics.PropTipes = {
 
     good:    PropTypes.number.isRequired,
     natural: PropTypes.number.isRequired,
