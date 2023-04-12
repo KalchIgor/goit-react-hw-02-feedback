@@ -24,18 +24,21 @@
      padding: 15px 30px;
      margin: 10px 20px;
      border-radius: 10px;
-    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .8);
      font-family: 'Montserrat', sans-serif;
      font-weight: bold;
      letter-spacing: 2px;
-     color: rgb(123, 245, 17);
+     color: rgb(0, 0, 0);
      transition: .15s ease-in-out;
      cursor: pointer;
+    background-color: rgb(20, 244, 244);
  }
+
+ 
 
  .button:hover,
  .button:focus {
-    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .8);
     color: #e2199f;
  }
 
@@ -49,7 +52,8 @@
     font-weight: bold;
     color: #e2199f;
     padding: 15px 30px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .8);
+    background-color: rgb(20, 244, 244);
  }
