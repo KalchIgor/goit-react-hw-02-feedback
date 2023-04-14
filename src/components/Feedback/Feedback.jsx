@@ -20,13 +20,13 @@ onLeaveFeedback = (e) => {
 	    }));
     }
 
-countTotalFeedback = (e) => {
+countTotalFeedback = () => {
     const { good, neutral, bad } = this.state;
     const countTotal = good + neutral + bad;
     return countTotal;
 };
 
-countPositiveFeedbackPercentage = (e) => {
+countPositiveFeedbackPercentage = () => {
     const countTotal = this.countTotalFeedback();
 	const { good } = this.state;
 	const percentage = (good * 100) / countTotal;
